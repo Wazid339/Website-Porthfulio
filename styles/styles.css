@@ -10,6 +10,9 @@ body{
 /* nav related style */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .nav-title{
     color: #121212;
@@ -17,14 +20,24 @@ nav{
     font-weight: 800;
 }
 .text-primary{
-    color: hsl(39, 100%, 55%);
+    color:hsl(39, 100%, 55%);
+
+
+
 }
 .btn-primary{
     border-radius: 5px;
     background-color: hsl(39, 100%, 55%);
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
 }
 nav > ul{
     display: flex;
+    align-items: center;
 
 }
 nav li{
