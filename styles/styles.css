@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 
 }
 .nav-title{
@@ -43,4 +44,18 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 50px;
+}
+/*header related style*/
+.header{
+    background-color: #fff8f3;
+}
+/* Banner style*/
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner.picture{
+    width: 500px;
+    
 }
