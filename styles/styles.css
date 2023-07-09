@@ -183,3 +183,12 @@ main section{
 .download-cv{
     text-align: center;
 }
+.footer-cloum{
+    
+    
+}
+footer{
+    display: flex;
+    background: #fff8f3;
+    padding: 130px 200px;
+}
