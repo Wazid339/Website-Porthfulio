@@ -184,11 +184,26 @@ main section{
     text-align: center;
 }
 .footer-cloum{
-    
+    width: 50%;
     
 }
 footer{
     display: flex;
+    gap: 100px;
     background: #fff8f3;
-    padding: 130px 200px;
+    padding: 130px5 200px;
+}
+.Contact input[type="text"], .Contact input[type="email"],
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:#757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0px;
+
+}
+.social-link a{
+    margin-right: 25px;
 }
